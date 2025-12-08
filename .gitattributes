@@ -1,2 +1,7 @@
-# Auto detect text files and perform LF normalization
+# Keep your existing line
 * text=auto
+
+# Add these lines to ignore HTML and CSS in language stats
+*.html linguist-vendored
+*.css linguist-vendored
+*.js linguist-vendored
